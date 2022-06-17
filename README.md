@@ -16,12 +16,13 @@ git clone https://github.com/skyMetaverse/giveaways.git
 #运行间隔
 TIME = 要设置的时间间隔（1000=1s）
 #频道id
-CHANNEL_ID = 抽奖频道的链接
+CHANNEL_ID = 抽奖频道的频道ID
 #账号的authorization
 AUTHORIZATION = 自己账号的Token（注意不要泄露、注意不要泄露、注意不要泄露）
 ```
 4、安装依赖
 ```
+cd giveaways
 npm install
 ```
 5、运行脚本
@@ -29,3 +30,6 @@ npm install
 node run.js
 nohup node run.js & //后台运行
 ```
+
+# 鸣谢
+本程序根据[@Tian508](https://github.com/Tian508)的代码修改而来;
